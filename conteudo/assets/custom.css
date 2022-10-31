@@ -1,0 +1,190 @@
+figcaption {
+    margin: 15px auto 40px auto;
+    text-align: center;
+}
+.p-r {
+    position: relative;
+    
+}
+.img-01 {
+    position: absolute;
+    left: -150px;
+}
+.col-texto {
+    margin-top: 100px;
+    padding-left: 340px;
+}
+.container-fluid {
+    padding: 0;
+}
+.bloco-1-1 .col-lg-4 img {
+    height: 100%;
+}
+.bloco-2-1 {
+    background-image: url('pg1/bloco2-bg.png');
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.bloco-2-1 .container {
+    background-color: #211f20;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+    max-width: 85%;
+    box-shadow: 4px 4px 3px black;
+}
+.bloco-2-1 .accordion-item {
+    color: black;
+}
+.painel-gaitinha .accordion-button {
+    font-family: unset;
+}
+.bloco-1-1 .col-texto {
+    max-width: 800px;
+}
+.row {
+    max-width: 100%;
+}
+.bloco-3-1 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    min-height: 620px;
+    background: url('pg1/bloco3-esq.png') left center no-repeat, url('pg1/bloco3-dir.png') right center no-repeat, #dddddd;
+}
+.bloco-3-1 .container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 30px;
+    box-shadow: 2px 3px 5px #333;
+}
+.podcast-bg {
+    margin-top: 40px;
+    height: 280px;
+    width: 100%;
+    background-image: url('pg1/bloco3-podcast.png');
+    background-size: contain;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
+
+.bloco-4-1 {
+    background-image: url('pg1/bloco4-bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 1200px;
+    padding-left: 50%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.bloco-4-1 h3 {
+    font-size: 24px;
+}
+.bloco-4-1 .col-conteudo {
+    max-width: 800px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.bloco-4-1 .caixa-1 {
+    background-image: url('pg1/bloco4-atencao.png');
+    width: 488px;
+    height: 94px;
+    color: white;
+    padding-left: 55px;
+    padding-top: 15px;
+    position: relative;
+    margin: 50px auto;
+    display: block;
+}
+.caixa-1::before {
+    content: '';
+    position: absolute;
+    width: 125px;   
+    height: 126px;
+    background-image: url('pg1/bloco4-ico.png');
+    left: -65px;
+    top: -60px;
+}
+.caixa-2 {
+    max-width: 754px;
+    height: 103px;
+    background-image: url('pg1/bloco4-destaque.png');
+    color: white;
+    padding-left: 40px;
+    padding-right: 30px;
+    padding-top: 5px;
+}
+.caixa-2 p {
+    margin: 0;
+}
+.caixa-2 p:first-of-type {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.pagination {
+    justify-content: center;
+}
+.obj-mapa {
+    width: 718px;
+    min-height: 567px;
+    background-image: url('pg1/bloco4-painel-mapa.png');
+    position: relative;
+}
+.obj-mapa button {
+    height: 35px;
+    width: 35px;
+    border: 3px solid white;
+    background-color: #ffffff80;
+    border-radius: 100%;
+    position: absolute;
+    transition-duration: .3s;
+}
+.obj-mapa button:hover {
+    box-shadow: 2px 2px 3px #333;
+    transition-duration: .3s;
+}
+#btn-acre {
+    top: 30%;
+    left: 7%;
+}
+#btn-alagoas {
+    top: 32%;
+    right: 5%;
+    height: 25px;
+    width: 25px;
+}
+#btn-amapa {
+    top: 9%;
+    left: 54%;
+}
+#btn-amazonas {
+    top: 20%;
+    left: 25%;
+}
+#btn-bahia {
+    right: 15%;
+    top: 36%;
+}
+#btn-ceara {
+    top: 22%;
+    right: 12%;
+}
+#btn-df {
+    top: 43%;
+    right: 32%;
+}
+#btn-es {
+    top: 50%;
+    right: 15%;
+}
+#btn-goias {
+    top: 44%;
+    right: 38%;
+}
