@@ -188,3 +188,27 @@ figcaption {
     top: 44%;
     right: 38%;
 }
+
+.bloco-1-2 {
+    background-color: #005d62;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.bloco-1-2 .container {
+    color: white;
+    background-color: transparent;
+}
+.bloco-2-2 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-image: url('pg2/bloco2-bg.png');
+}
+.bloco-2-2 .container {
+    background-color: transparent;
+}
+.bloco-2-2 .container-fluid {
+    padding: 15px 25px;
+}
+.bloco-2-2 .container-fluid .row {
+    justify-content: center;
+}
