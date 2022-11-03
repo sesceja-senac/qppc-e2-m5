@@ -17,6 +17,9 @@ figcaption {
 .container-fluid {
     padding: 0;
 }
+.bloco-1-1 {
+    padding-top: 100px;
+}
 .bloco-1-1 .col-lg-4 img {
     height: 100%;
 }
@@ -79,7 +82,7 @@ figcaption {
     min-height: 1200px;
     padding-left: 50%;
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 200px;
     margin-left: 40px;
     margin-right: 40px;
 }
@@ -211,4 +214,128 @@ figcaption {
 }
 .bloco-2-2 .container-fluid .row {
     justify-content: center;
+}
+
+.bloco-3-2 {
+    background-image: url('pg2/bloco3-bg.png');
+    background-size: contain;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.bloco-3-2 .container {
+    padding: 15px 25px;
+    border-radius: 20px;
+    box-shadow: 5px 3px 10px black;
+}
+.bloco-4-2 {
+    background-image: url('pg2/bloco4-bg.png');
+    padding: 80px 0;
+}
+
+.bloco-4-2 .container {
+    background-color: transparent;
+}
+
+.bloco-5-2 {
+    background-image: url('pg2/bloco5-bg.png');
+    padding: 80px 0;
+}
+
+.bloco-5-2 .container {
+    background-color: transparent;
+    color: white;
+}
+
+.pg4 {
+    background-image: url('pg4/bg.png');
+    padding-bottom: 140px;
+    padding-top: 100px;
+}
+.pg4 .container {
+    background-color: #008086;
+    color: white;
+    background-position: center;
+    width: 1026px;
+    padding: 25px 45px;
+    border-radius: 25px;
+}
+.pg4 h3 {
+    color: white;
+    font-size: 30px;
+}
+.titulo-conteudo {
+    position: absolute;
+    width: 100%;
+}
+.titulo-conteudo .container {
+    background-color: transparent;
+}
+
+footer {
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
+}
+.pagination {
+    background-color: transparent;
+    margin-top: -100px;
+}
+
+.bloco-1-3 {
+    padding-top: 90px;
+    padding-bottom: 60px;
+    background-image: url('pg3/bloco1-bg.png');
+    background-color: #008086;
+}
+.bloco-1-3 .container {
+    padding: 25px;
+    background-color: #008086;
+    box-shadow: 9px 9px 10px #333;
+    border-radius: 25px;
+    border: 1px solid #333;
+    color: white;
+}
+.bloco-1-3 h3 {
+    color: white;
+    font-size: 26px;
+}
+.bloco-1-3 .container img {
+    margin: 40px auto;
+}
+.bloco-2-3 {
+    background-image: url('pg3/bloco2-bg.png');
+    padding: 50px 0;
+}
+.bloco-2-3 .container {
+    background-color: transparent;
+}
+
+table.sesc {
+    display: block;
+    margin: 40px auto 10px auto;
+    width: fit-content;
+}
+img.m-auto {
+    margin: 30px auto !important;
+}
+.bloco-3-3 {
+    background-image: url('pg3/bloco3-bg.png');
+    padding: 40px 0;
+}
+.bloco-3-3 .container {
+    padding: 25px 35px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 6px black;
+}
+.bloco-4-3 {
+    padding-top: 40px;
+    padding-bottom: 120px;
+    background-image: url('pg3/bloco4-bg.png');
+}
+.bloco-4-3 .container {
+    padding: 25px 35px;
+}
+.bloco-4-3 h3 {
+    color: #333;
+    font-size: 26px;
 }
