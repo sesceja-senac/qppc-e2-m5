@@ -215,7 +215,11 @@ figcaption {
 .bloco-2-2 .container-fluid .row {
     justify-content: center;
 }
-
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .bloco-3-2 {
     background-image: url('pg2/bloco3-bg.png');
     background-size: contain;
@@ -228,7 +232,7 @@ figcaption {
     box-shadow: 5px 3px 10px black;
 }
 .bloco-4-2 {
-    background: url('pg2/bloco4-bg.png'), url('pg2/bloco4-grafico-dir.png') right top no-repeat;
+    background: url('pg2/bloco4-bg.png'), url('pg2/bloco4-grafico-dir.png') 101% top/512px 100% no-repeat;
     padding: 80px 0;
 }
 .citacao {
@@ -239,7 +243,7 @@ figcaption {
     border-radius: 25px;
     display: block;
     margin: 40px auto;
-    box-shadow: 2px 2px 3px #333;
+    box-shadow: -8px 8px #ff9700;
 }
 .caixa-atencao-1 {
     background-image: url('pg2/bloco5-atencao-bg.png');
@@ -375,4 +379,110 @@ img.m-auto {
 .bloco-4-3 h3 {
     color: #333;
     font-size: 26px;
+}
+.carousel.sesc {
+    max-width: 960px;
+    display: block;
+    margin: 20px auto;
+}
+
+.bloco-1-2 h3 {
+    color: white;
+    font-size: 28px;
+}
+.bloco-1-2 .caixa {
+    color: #333;
+    background-color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 25px;
+    box-shadow: 4px 4px #ff9700;
+}
+.infografico-1 {
+    display: flex;
+    align-items: center;
+    background-color: #00828b;
+    box-shadow: -6px 6px #ff9700;
+    color: white;
+    max-width: 75%;
+    border-radius: 25px;
+    padding: 25px;
+    margin: 0px 0 40px 0;
+}
+.infografico-1 li {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.gif {
+    border-radius: 25px;
+    width: 600px;
+    height: 338px;
+    margin-right: 30px;
+}
+
+.bloco-4-2 .caixa.icone.saiba-mais,
+.bloco-2-2 .caixa.icone.saiba-mais {
+    background-color: #008086;
+    color: white;
+    border: none;
+    box-shadow: -6px 6px #ff9700;
+    border-radius: 100px;
+    padding: 15px;
+    padding-left: 65px;
+}
+.bloco-4-2 .caixa.icone.saiba-mais::before,
+.bloco-2-2 .caixa.icone.saiba-mais::before {
+    background-image: url('pg2/bloco4-saiba-ico.png');
+    left: -50px;
+    top: -15px;
+    height: 125px;
+    width: 105px;
+    background-color: transparent;
+    background-size: contain;
+}
+.bloco-4-2 .caixa-sinopse {
+    display: flex;
+    margin: 20px 0;
+    width: 1380px;
+}
+.bloco-4-2 .caixa-sinopse img {
+    align-self: center;
+    margin-right: 40px;
+    height: auto;
+}
+.bloco-2-1 h3 {
+    color: white;
+    font-size: 28px;
+}
+.bloco-2-1 .caixa {
+    background-color: #008086;
+    color: white;
+    border: none;
+    border-radius: 100px;
+    box-shadow: -6px 6px #ff9700;
+    width: 60%;
+    text-align: center;
+    display: block;
+    margin: 40px auto;
+}
+.bloco-2-1 .caixa.icone.pergunta::before {
+    background-image: url('pg1/bloco2-pergunta-ico.png');
+    background-color: transparent;
+    height: 154px;
+    width: 154px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    right: -15px;
+    left: unset;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.bloco-2-1 .caixa.icone.dica::before {
+    background-image: url('pg1/bloco2-ico-dica.png');
+    background-color: transparent;
+    height: 118px;
+    width: 119px;
+    left: -50px;
 }
