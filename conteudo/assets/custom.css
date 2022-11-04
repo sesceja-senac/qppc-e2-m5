@@ -228,10 +228,37 @@ figcaption {
     box-shadow: 5px 3px 10px black;
 }
 .bloco-4-2 {
-    background-image: url('pg2/bloco4-bg.png');
+    background: url('pg2/bloco4-bg.png'), url('pg2/bloco4-grafico-dir.png') right top no-repeat;
     padding: 80px 0;
 }
-
+.citacao {
+    width: 70%;
+    background-color: white;
+    color: #333;
+    padding: 25px;
+    border-radius: 25px;
+    display: block;
+    margin: 40px auto;
+    box-shadow: 2px 2px 3px #333;
+}
+.caixa-atencao-1 {
+    background-image: url('pg2/bloco5-atencao-bg.png');
+    width: 853px;
+    height: 103px;
+    color: #333;
+    padding: 5px 25px 5px 65px;
+    margin: 40px auto;
+    position: relative;
+}
+.caixa-atencao-1::before {
+    content: '';
+    height: 125px;
+    width: 125px;
+    background-image: url('pg2/bloco5-atencao-ico.png');
+    position: absolute;
+    left: -60px;
+    top: -40px;
+}
 .bloco-4-2 .container {
     background-color: transparent;
 }
