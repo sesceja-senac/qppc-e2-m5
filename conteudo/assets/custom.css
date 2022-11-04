@@ -250,7 +250,17 @@ figcaption {
     margin: 40px auto;
     position: relative;
 }
-.caixa-atencao-1::before {
+.caixa-atencao-2 {
+    width: 533px;
+    height: 103px;
+    background-image: url('pg2/bloco5-atencao2-bg.png');
+    padding: 15px 25px 5px 65px;
+    margin: 40px auto;
+    position: relative;
+    color: #333;
+}
+.caixa-atencao-1::before,
+.caixa-atencao-2::before {
     content: '';
     height: 125px;
     width: 125px;
