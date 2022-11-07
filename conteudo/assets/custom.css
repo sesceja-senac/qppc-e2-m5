@@ -191,6 +191,86 @@ figcaption {
     top: 44%;
     right: 38%;
 }
+#btn-maranhao {
+    top: 23%;
+    right: 26%;
+}
+#btn-matogrosso {
+    top: 38%;
+    left: 44%;
+}
+#btn-matosul {
+    top: 52%;
+    left: 46%;
+}
+#btn-minas {
+    right: 24%;
+    top: 48%;
+}
+#btn-para {
+    top: 20%;
+    left: 50%;
+}
+#btn-paraiba {    
+    top: 27%;
+    right: 3%;
+    height: 25px;
+    width: 25px;    
+}
+#btn-parana {
+    left: 55%;
+    bottom: 34%;
+}
+#btn-pernambuco {
+    top: 29.5%;
+    right: 10.5%;
+    height: 25px;
+    width: 25px;
+}
+#btn-piaui {
+    right: 18%;
+    top: 27%;
+}
+#btn-rj {
+    right: 19%;
+    top: 57%;
+}
+#btn-rn {
+    top: 23.5%;
+    right: 6%;
+    height: 25px;
+    width: 25px;
+}
+#btn-rs {
+    left: 50%;
+    bottom: 24%;
+}
+#btn-rondonia {
+    top: 33%;
+    left: 26.5%;
+}
+#btn-roraima {
+    top: 8%;
+    left: 30.5%;
+}
+#btn-sc {
+    right: 37%;
+    bottom: 28.5%;
+}
+#btn-sp {
+    bottom: 38%;
+    left: 61%;
+}
+#btn-sergipe {
+    top: 35%;
+    right: 7.5%;
+    height: 25px;
+    width: 25px;
+}
+#btn-tocantins {
+    top: 31%;
+    left: 62%;
+}
 
 .bloco-1-2 {
     background-color: #005d62;
@@ -223,8 +303,8 @@ figcaption {
 .bloco-3-2 {
     background-image: url('pg2/bloco3-bg.png');
     background-size: contain;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 .bloco-3-2 .container {
     padding: 15px 25px;
@@ -307,6 +387,7 @@ figcaption {
 .titulo-conteudo {
     position: absolute;
     width: 100%;
+    top: 160px;
 }
 .titulo-conteudo .container {
     background-color: transparent;
@@ -368,6 +449,16 @@ img.m-auto {
     border-radius: 20px;
     box-shadow: 3px 3px 6px black;
 }
+.bloco-3-3 .caixa.icone.dica {
+    background-color: #00828b;
+    color: white;
+    border-radius: 100px;
+    border: none;
+    box-shadow: -6px 6px #ff9700;
+}
+.bloco-3-3 .caixa.icone.dica::before {
+
+}
 .bloco-4-3 {
     padding-top: 40px;
     padding-bottom: 120px;
@@ -380,6 +471,7 @@ img.m-auto {
     color: #333;
     font-size: 26px;
 }
+h3 {font-size: 26px;}
 .carousel.sesc {
     max-width: 960px;
     display: block;
@@ -395,8 +487,9 @@ img.m-auto {
     background-color: white;
     border: none;
     padding: 15px;
+    margin: 40px auto;
     border-radius: 25px;
-    box-shadow: 4px 4px #ff9700;
+    box-shadow: -4px 4px #ff9700;
 }
 .infografico-1 {
     display: flex;
@@ -444,7 +537,7 @@ img.m-auto {
 }
 .bloco-4-2 .caixa-sinopse {
     display: flex;
-    margin: 20px 0;
+    margin: 40px 0;
     width: 1380px;
 }
 .bloco-4-2 .caixa-sinopse img {
@@ -485,4 +578,111 @@ img.m-auto {
     height: 118px;
     width: 119px;
     left: -50px;
+}
+p.cita {
+    padding-left: 30px;
+    font-style: italic;
+}
+.menu {
+    position: fixed;
+    background-image: url('menusuperior/menu-superior.png');
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 99;
+    transition-duration: .3s;
+}
+.menu.topativo {
+    top: 0;
+}
+.menu a {
+    background-color: white;
+    border-radius: 10px;
+    height: 48px;
+    line-height: 1.1em;
+    width: 200px;
+    text-align: center;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu a:hover {
+    transform: scale(1.03);
+}
+.caixa.icone .tooltip-link {
+    color: white;
+}
+
+.pg5 .container {
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+
+@media (max-width:1370px){
+    .bloco-2-1 .caixa {
+        text-align: left;
+    }
+    
+    .bloco-2-1 .caixa.icone.dica::before {
+        left: -65px;
+    }
+
+    .bloco-4-1 {
+        background-image: unset;
+        padding-left: unset;
+    }
+
+    .bloco-4-1 .col-conteudo {
+        margin: 20px auto;
+    }
+    .infografico-1 {
+        max-width: 95%;
+    }
+    .bloco-4-2 {
+        background: url('pg2/bloco4-bg.png');
+    }
+    .bloco-4-2 .caixa-sinopse img {
+        width: 750px;
+    }
+    .bloco-4-2 .caixa-sinopse {
+        width: 100%;
+        padding-right: 35px;
+    }
+}
+
+@media (max-width:600px){
+    .bloco-1-1 .col-lg-4 {
+        display: none;
+    }
+    .bloco-1-1 .col-lg-8 {
+        width: 100%;
+        padding-left: 15px;
+    }
+    .img-01 {
+        display: none;
+    }
+    .row {
+        max-width: unset;
+    }
+    .bloco-2-1 .caixa {
+        width: 100%;
+        margin-top: 100px;
+        padding: 30px;
+    }
+    .bloco-2-1 .caixa.icone.pergunta::before {
+        top: -100px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .bloco-2-1 .caixa.icone.dica::before {
+        top: -85px;
+        left: 45%;
+        transform: translateX(-50%);
+    }
 }

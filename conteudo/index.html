@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="../assets/fa/css/all.min.css">
     <link rel="stylesheet" href="../assets/css/template.css">
     <link rel="stylesheet" href="assets/custom.css">
+    <link rel="stylesheet" href="../assets/css/aos.css">
     <link rel="stylesheet" href="../assets/print/print.css">
    
 
@@ -30,6 +31,13 @@
     </header>
     <!-- Section principal deve ter o booklet, pois faz parte do print.js -->    
     <section id="booklet">
+        <div class="menu">
+            <a href="?page=1">Leis de incentivo<br>à cultura</a>
+            <a href="?page=2">Plataforma<br>Salic</a>
+            <a href="?page=3">Captação<br>de recursos</a>
+            <a href="?page=4">Papel do<br>Produtor Cultural</a>
+            <a href="?page=5">Referências</a>
+        </div>
         <!--Dentro do section devemos ter um elemento com a classe paginas, para funcionar a paginação/print-->
         <header class="titulo-conteudo mb-0 print">
             <div class="container" style="padding-top:1px">
@@ -37,11 +45,11 @@
                 <h1 id="nome-curso" class="d-none print mt-0 text-center w-100">Qualificação Profissional: Produtor Cultural</h1>
                 <div class="row g-0 pb-4 pt-4">
                     <div class="col-9 d-flex flex-column justify-content-center align-items-start">                      
-                        <h2>Elaboração de projetos para leis de incentivo à cultura</h2>
+                        
                     </div>
                     <div class="col-3 d-flex flex-column justify-content-center align-items-end">
                         <button data-pdf="true" name="button" class="bt-print bto-imprimir no-print"><i class="fas fa-print "></i> imprimir</button>                            
-                    </div>                                       
+                    </div>
                 </div>
             </div>         
         </header>
@@ -54,6 +62,7 @@
                         </div>
                         <div class="col-lg-8 p-r col-texto">
                             <img src="assets/pg1/bloco1-img2.png" alt="" class="img-01">
+                            <h2>Elaboração de projetos para leis de incentivo à cultura</h2>
                             <h4>Introdução</h4>
                             <p>“Costurar” é algo que as pessoas fazem o tempo todo. Não se trata, necessariamente, daquela costura feita com linha e agulha, unindo um pedaço de tecido ao outro. Ainda que essa forma de costura esteja presente em cada peça de roupa, a analogia que se quer fazer nesse caso se refere ao próprio ato de ligar uma coisa à outra, isto é, ligar um conhecimento ao outro.</p>
                             <p>Conectar conhecimentos é fundamental para aprender, e, ao longo desta segunda etapa da sua jornada, o foco estará em conectar (“costurar”) os conhecimentos relativos à produção cultural ao dia a dia do trabalho do produtor, para que os conceitos trabalhados ganhem sentido prático.</p>
@@ -67,8 +76,8 @@
                         <h3>Resumo sobre as leis de incentivo à cultura</h3>
                         <p>Seguindo os estudos de produção cultural, você viu a importância de organizar e elaborar projetos, seja para fins de financiamentos coletivos, como para inscrição em editais e prêmios, seja para se ter um “mapa” de navegação que auxiliará na hora da feitura do produto ou do serviço cultural. Então, chegou a hora de elaborar projetos que visam a captar recursos financeiros via leis de incentivo à cultura (LICs).</p>
                         <p>Antes, porém, é importante recapitular duas questões:</p>
-                        <h4>!! fundo destaque, icone interrogação, AOS js</h4>
-                        <div class="caixa icone pergunta">
+                        
+                        <div data-aos="fade-right" class="caixa icone pergunta">
                             <p>
                                 <b>O que são as leis de incentivo à cultura?<br>
                                 Quais são as leis de incentivo à cultura disponíveis no país?</b>
@@ -81,14 +90,14 @@
                         <p>No âmbito municipal, a renúncia fiscal funciona por meio do Imposto Predial e Territorial Urbano (IPTU) e do Imposto sobre Serviços (ISS), ou seja, o município destina parte dos valores desses impostos para o fomento e o financiamento cultural. Como diz a Lei Municipal nº 11.010/2016, o incentivo fiscal é um <em>mecanismo por meio do qual o Município realiza a renúncia fiscal em favor do incentivador de projetos de caráter artístico-cultural na cidade</em> (BELO HORIZONTE, 2016).</p>
                         <p>Observe algumas leis municipais de incentivo à cultura:</p>
                         <figure>
-                            <img src="assets/pg1/figura1.png" class="img-fluid d-block m-auto" alt="A imagem contém diversas logomarcas de leis municipais de incentivo à cultura. Da esquerda para a direita, de cima para baixo, estão os seguintes logos: Lei Municipal de Incentivo à Cultura do Rio de Janeiro; Lei Municipal de Incentivo à Cultura de Varginha; Lei de Incentivo à Cultura de Goiânia; e Lei Municipal de Incentivo à Cultura de Florianópolis, em Santa Catarina.">
+                            <img data-aos="fade-right" src="assets/pg1/figura1.png" class="img-fluid d-block m-auto" alt="A imagem contém diversas logomarcas de leis municipais de incentivo à cultura. Da esquerda para a direita, de cima para baixo, estão os seguintes logos: Lei Municipal de Incentivo à Cultura do Rio de Janeiro; Lei Municipal de Incentivo à Cultura de Varginha; Lei de Incentivo à Cultura de Goiânia; e Lei Municipal de Incentivo à Cultura de Florianópolis, em Santa Catarina.">
                             <figcaption>Figura 1 – Leis municipais de incentivo à cultura<br>
                                 Fonte: Sesc EJA EAD (2022)</figcaption>
                         </figure>
         
                         <h4>Esfera estadual</h4>
                         <p>O âmbito estadual segue a mesma lógica do ente municipal, mas abrange um número maior de recursos e de trabalhadores da cultura. Como exemplo, podem ser mencionadas: a Lei nº 8.257/2004 do Mato Grosso, que institui o Fundo Estadual de Fomento à Cultura do Estado do Mato Grosso (MATO GROSSO, 2004); em São Paulo, a Lei Estadual nº 12.268/2006, que institui o Programa de Ação Cultural (ProAC); e, no Rio Grande do Sul, a Lei nº 13.490/2010, que institui o Sistema Estadual Unificado de Apoio e Fomento às Atividades Culturais (Pró-cultura).</p>
-                        <div class="caixa icone dica">
+                        <div data-aos="fade-right" class="caixa icone dica">
                             <p>Você sabe dizer se, na sua cidade ou no seu estado, existe alguma lei de incentivo à cultura? Para descobrir, consulte a secretaria de cultura do seu município ou do seu estado, identificando também quais são os mecanismos com os quais ela opera, estimula e fomenta o setor cultural da sua região.</p>
                         </div>
         
@@ -96,7 +105,7 @@
                         <p>Quanto ao campo federal, ele delimita as bases para as leis municipais e estaduais, merecendo destaque as seguintes leis:</p>
                         <p>Clique ou toque para visualizar o conteúdo.</p>
         
-                        <div class="accordion painel-gaitinha" id="accordionExample">
+                        <div data-aos="fade-right" class="accordion painel-gaitinha" id="accordionExample">
                             <div class="accordion-item">
                                 <h2 class="accordion-header" id="headingOne">
                                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -165,6 +174,25 @@
                             <button id="btn-df" data-bs-toggle="modal" data-bs-target="#modal-7" title="Distrito Federal (DF)"></button>
                             <button id="btn-es" data-bs-toggle="modal" data-bs-target="#modal-8" title="Espírito Santo (ES)"></button>
                             <button id="btn-goias" data-bs-toggle="modal" data-bs-target="#modal-9" title="Goiás (GO)"></button>
+                            <button id="btn-maranhao" data-bs-toggle="modal" data-bs-target="#modal-10" title="Maranhão (MA)"></button>
+                            <button id="btn-matogrosso" data-bs-toggle="modal" data-bs-target="#modal-11" title="Mato Grosso (MT)"></button>
+                            <button id="btn-matosul" data-bs-toggle="modal" data-bs-target="#modal-12" title="Mato Grosso do Sul (MS)"></button>
+                            <button id="btn-minas" data-bs-toggle="modal" data-bs-target="#modal-13" title="Minas Gerais (MG)"></button>
+                            <button id="btn-para" data-bs-toggle="modal" data-bs-target="#modal-14" title="Pará (PA)"></button>
+                            <button id="btn-paraiba" data-bs-toggle="modal" data-bs-target="#modal-15" title="Paraíba (PB)"></button>
+                            <button id="btn-parana" data-bs-toggle="modal" data-bs-target="#modal-16" title="Paraná (PR)"></button>
+                            <button id="btn-pernambuco" data-bs-toggle="modal" data-bs-target="#modal-17" title="Pernambuco (PE)"></button>
+                            <button id="btn-piaui" data-bs-toggle="modal" data-bs-target="#modal-18" title="Piauí (PI)"></button>
+                            <button id="btn-rj" data-bs-toggle="modal" data-bs-target="#modal-19" title="Rio de Janeiro (RJ)"></button>
+                            <button id="btn-rn" data-bs-toggle="modal" data-bs-target="#modal-20" title="Rio Grande do Norte (RN)"></button>
+                            <button id="btn-rs" data-bs-toggle="modal" data-bs-target="#modal-21" title="Rio Grande do Sul (RS)"></button>
+                            <button id="btn-rondonia" data-bs-toggle="modal" data-bs-target="#modal-22" title="Rondônia (RO)"></button>
+                            <button id="btn-roraima" data-bs-toggle="modal" data-bs-target="#modal-23" title="Roraima (RR)"></button>
+                            <button id="btn-sc" data-bs-toggle="modal" data-bs-target="#modal-24" title="Santa Catarina (SC)"></button>
+                            <button id="btn-sp" data-bs-toggle="modal" data-bs-target="#modal-25" title="São Paulo (SP)"></button>
+                            <button id="btn-sergipe" data-bs-toggle="modal" data-bs-target="#modal-26" title="Sergipe (SE)"></button>
+                            <button id="btn-tocantins" data-bs-toggle="modal" data-bs-target="#modal-27" title="Tocantins (TO)"></button>
+                            
                         </div>
         
                         <div class="caixa-2">
@@ -422,6 +450,513 @@
                         </div>
                     </div>
                 </div>
+                <div class="modal fade" id="modal-10" tabindex="-1" aria-labelledby="modelTitleId" style="display: none;" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">
+                                    Maranhão (MA)
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container">
+                                    <p><b>Lei Estadual de Incentivo à Cultura do Maranhão</b></p>
+                                    <p class="cita">[...] é um instrumento de fomento e difusão da produção cultural no Estado, instituído por meio da Lei 9.437, de 15 de agosto de 2011, que se destina ao financiamento de projetos artísticos e culturais, por meio de recursos oriundos da renúncia fiscal do ICMS [...]. (SOBRE A LEI..., 20--)</p>
+                                    <figure>
+                                        <img src="assets/pg1/nordeste-figura-11.png" class="img-fluid d-block m-auto" alt="">
+                                        <figcaption>Figura 11 – Arte de divulgação da festa de São João, no Maranhão<br>
+                                            Fonte: Silva (2022)</figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="modal-footer justify-content-center">
+                                <button type="button" class="btn-sesc" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="modal-11" tabindex="-1" aria-labelledby="modelTitleId" style="display: none;" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">
+                                    Mato Grosso (MT)
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container">
+                                    <p><b>Decreto nº 1.326, de 28 de março de 2022</b></p>
+                                    <p><em>Regulamenta a Lei nº 10.379, de 1º de março de 2016, que redefine o Fundo Estadual de Fomento à Cultura sob a nova nomenclatura de Fundo Estadual de Política Cultural de Mato Grosso, e dá outras providências</em> (MATO GROSSO, 2022).</p>
+                                    <p>Esse decreto ainda considera os princípios, os objetivos e as responsabilidades <em>previstos na Lei nº 10.363, de 27 de janeiro de 2016, que instituiu o Plano Estadual de Cultura de Mato Grosso e tendo em vista o que consta no SECEL-PRO-2021/00208</em> (MATO GROSSO, 2022).</p>
+                                    <figure>
+                                        <img src="assets/pg1/centrooeste-figura-12.png" class="img-fluid d-block m-auto" alt="">
+                                        <figcaption>Figura 12 – Captura de tela do vídeo <em>Representações Sociais dos Corpos, Fotos e Diálogos: pelas Lentes, o Registro de Mulheres Juinenses</em><br>
+                                        Fonte: Theodoro (2022)</figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="modal-footer justify-content-center">
+                                <button type="button" class="btn-sesc" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="modal-12" tabindex="-1" aria-labelledby="modelTitleId" style="display: none;" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">
+                                    Mato Grosso do Sul (MS)
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container">
+                                    <p><b>Lei n.º 5.060, de 20 de setembro de 2017</b></p>
+                                    <p class="cita">
+                                        Institui o Sistema Estadual de Cultura do Estado de Mato Grosso do Sul, estabelece diretrizes para a Política Estadual de Cultura, e dá outras providências.<br>
+                                        [...]<br>
+                                        TÍTULO I<br>
+                                        DA INSTITUIÇÃO, DOS PRINCÍPIOS E DOS OBJETIVOS DO SISTEMA ESTADUAL DE CULTURA<br>
+                                        Art. 1º Fica instituído o Sistema Estadual de Cultura do Estado de Mato Grosso do Sul (SIEC/MS), destinado a promover condições para a melhor formulação e gestão da política pública de cultura no Estado, objetivando o exercício pleno dos direitos culturais e a promoção do desenvolvimento humano, social e econômico, mediante cooperação entre o Poder Público e a sociedade civil.<br>
+                                        Parágrafo único. O SIEC/MS integra o Sistema Nacional de Cultura (SNC) e se constitui no principal articulador, no âmbito estadual, das políticas públicas de cultura, estabelecendo mecanismos de gestão compartilhada com os demais entes federados e a sociedade civil. (MATO GROSSO DO SUL, 2017)
+                                    </p>
+                                    <figure>
+                                        <img src="assets/pg1/centrooeste-figura-13.png" class="img-fluid d-block m-auto" alt="">
+                                        <figcaption>Figura 13 - Arte de divulgação do espetáculo Gritaram-me Bugra, para o 21º Festival de Inverno de Bonito (2022)<br>
+                                        Fonte: Corrêa (2022)</figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="modal-footer justify-content-center">
+                                <button type="button" class="btn-sesc" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="modal-13" tabindex="-1" aria-labelledby="modelTitleId" style="display: none;" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">
+                                    Minas Gerais (MG)
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container">
+                                    <p><b>Lei nº 22.944, de 15 de janeiro de 2018 (Lei Estadual de Incentivo à Cultura de Minas Gerais)</b></p>
+                                    <p>É um mecanismo de apoio à cultura local do estado que, por meio da dedução do ICMS, promove a execução de projetos artístico-culturais.</p>
+                                    <figure>
+                                        <img src="assets/pg1/sudeste-figura-14.png" class="img-fluid d-block m-auto" alt="">
+                                        <figcaption>Figura 14 – Arte de divulgação do Flower Power Gastrô<br>
+                                        Fonte: Flower Power BH (2022)</figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="modal-footer justify-content-center">
+                                <button type="button" class="btn-sesc" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="modal-14" tabindex="-1" aria-labelledby="modelTitleId" style="display: none;" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">
+                                    Pará (PA)
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container">
+                                    <p><b>Decreto nº 847, de 8 de janeiro de 2004</b></p>
+                                    <p><em>Regulamenta a Lei nº 6.572, de 8 de agosto de 2003, que dispõe sobre a concessão de incentivo fiscal para a realização de projetos culturais no Estado do Pará, e dá outras providências</em> (PARÁ, 2004).</p>
+                                    <p>O Programa Estadual de Incentivo à Cultura Semear foi criado pelo governo do estado do Pará com o objetivo de:</p>
+                                    <ul>
+                                        <li>Promover e estimular a produção cultural e artística valorizando recursos humanos e conteúdos</li>
+
+                                        <li>Apoiar e valorizar o conjunto das manifestações culturais e seus criadores e contribuir de forma propositiva para sua difusão</li>
+                                    
+                                        <li>Proteger as expressões e o pluralismo, além de assegurar a sobrevivência e o florescimento dos modos de criar, fazer e viver da região</li>
+                                    
+                                        <li>Preservar os patrimônios material e imaterial, desenvolver a consciência dos valores do estado e o respeito a estes, bem como estimular a informação, o conhecimento e a memória</li>
+                                    
+                                        <li>Contemplar as linguagens visual, sonora e corporal, a intervenção em bens móveis e imóveis de relevante interesse artístico e cultural, a literatura, acervos bibliográficos, bibliotecas e museus</li>
+                                    </ul>
+                                    <p>Assim, Estado e iniciativa privada disponibilizam recursos para promover, mediante o incentivo à cultura, o desenvolvimento social, cultural e econômico do estado.</p>
+                                    <figure>
+                                        <img src="assets/pg1/norte-figura-15.png" class="img-fluid d-block m-auto" alt="">
+                                        <figcaption>Figura 15 – Arte de divulgação da IV Festa Literária Internacional do Xingu<br>
+                                        Fonte: Freitas (2022)</figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="modal-footer justify-content-center">
+                                <button type="button" class="btn-sesc" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="modal-15" tabindex="-1" aria-labelledby="modelTitleId" style="display: none;" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">
+                                    Paraíba (PB)
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container">
+                                    <p><b>Lei Municipal nº 1.122, de 26 de outubro de 2017</b></p>
+                                    <p><em>Dispõe sobre a criação do Sistema Municipal de Cultura de Juruti, seus princípios, objetivos, estrutura, organização, gestão, inter-relações entre os seus componentes, recursos humanos, financiamento e dá outras providências </em> (JURUTI, 2017).</p>
+                                    <figure>
+                                        <img src="assets/pg1/nordeste-figura-16.png" class="img-fluid d-block m-auto" alt="">
+                                        <figcaption>Figura 16 – Festribal 2022<br>
+                                        Fonte: Prefeitura de Juruti (2022) <em>apud</em> Cavaleiro (2022)</figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="modal-footer justify-content-center">
+                                <button type="button" class="btn-sesc" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="modal-16" tabindex="-1" aria-labelledby="modelTitleId" style="display: none;" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">
+                                    Paraná (PR)
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container">
+                                    <p><b>Lei n.º 17.043, de 30 de dezembro de 2011</b></p>
+                                    <p>Institui o Programa Estadual de Fomento e Incentivo à Cultura – PROFICE, o Fundo Estadual de Cultura – FEC e adota outras providências (LEI…, 2011).</p>
+                                    <p>A sociedade civil e as empresas podem elaborar e inscrever projetos culturais aptos a serem financiados com recursos do FEC por meio do Profice. Além disso, empresas podem doar recursos para o FEC e deduzi-los do ICMS.</p>
+                                    <p>A Secretaria de Estado da Comunicação Social e da Cultura é a responsável pela administração dos recursos, pela formalização de parcerias e pelo acompanhamento dos projetos aprovados.</p>
+                                    <figure>
+                                        <img src="assets/pg1/sul-figura-17.png" class="img-fluid d-block m-auto" alt="">
+                                        <figcaption>Figura 17 – 1ª Mostra Painéis Urbanos: Exposição de Artes Visuais<br>
+                                        Fonte: Hedler (2022)</figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="modal-footer justify-content-center">
+                                <button type="button" class="btn-sesc" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="modal-17" tabindex="-1" aria-labelledby="modelTitleId" style="display: none;" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">
+                                    Pernambuco (PE)
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container">
+                                    <p><b>Lei nº 12.310, de 19 de dezembro de 2002</b></p>
+                                    <p><em>Consolida e altera o Sistema de Incentivo à Cultura, e dá outras providências</em> (PERNAMBUCO, 2002).</p>
+                                    <p>Segundo a lei, o Fundo Pernambucano de Incentivo à Cultura (Funcultura) é um mecanismo de natureza financeira e contábil, com prazo indeterminado de duração, criado com a finalidade de incentivar e estimular a cultura pernambucana, mediante a persecução dos objetivos do Sistema de Incentivo à Cultura (PERMAMBUCO, 2002). Instituíram-se também o Mecenato Cultural de Pernambuco (MCP) e o Crédito Pernambucano de Incentivo à Cultura (Credcultura).</p>
+                                    <figure>
+                                        <img src="assets/pg1/nordeste-figura-18.png" class="img-fluid d-block m-auto" alt="">
+                                        <figcaption>Figura 18 – Escola Pernambucana de Circo (EPC)<br>
+                                        Fonte: Escola Pernambucana de Circo (2022)</figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="modal-footer justify-content-center">
+                                <button type="button" class="btn-sesc" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="modal-18" tabindex="-1" aria-labelledby="modelTitleId" style="display: none;" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">
+                                    Piauí (PI)
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container">
+                                    <p><b>Lei nº 4.997, de 30 de dezembro de 1997</b></p>
+                                    <p><em>Cria o Sistema de Incentivo Estadual à Cultura – SIEC e dispõe sobre benefícios fiscais na área do Imposto sobre Operações relativas à Circulação de Mercadorias e Prestações de Serviços de Transporte Interestadual e Intermunicipal e de Comunicação – ICMS, concedidos a operações de caráter cultural e artístico</em> (PIAUÍ, 1997).</p>
+                                    <p>O SIEC compreende dois mecanismos: Mecenato de Incentivo à Cultura (MIC) e Fundo de Incentivo à Cultura (FIC). É importante dizer também que essa lei passou por alterações.</p>
+                                </div>
+                            </div>
+                            <div class="modal-footer justify-content-center">
+                                <button type="button" class="btn-sesc" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="modal-19" tabindex="-1" aria-labelledby="modelTitleId" style="display: none;" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">
+                                    Rio de Janeiro (RJ)
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container">
+                                    <p><b>Lei nº 1.940, de 31 de dezembro de 1992 (revogada pela Lei nº 5.553, de 14 de janeiro de 2013)</b></p>
+                                    <p>Também conhecida como “Lei do ISS”, busca promover a diversidade cultural na cidade do Rio de Janeiro e ampliar o investimento do setor por meio do benefício concedido a pessoas jurídicas (PJs), contribuintes do ISS-RJ.</p>
+                                    <figure>
+                                        <img src="assets/pg1/sudeste-figura-19.png" class="img-fluid d-block m-auto" alt="">
+                                        <figcaption>Figura 19 – Arte de divulgação do workshop De Passo em Passo: Sambando na Cara da Sociedade com Ewa<br>
+                                            Fonte: YNTB (2021)</figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="modal-footer justify-content-center">
+                                <button type="button" class="btn-sesc" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="modal-20" tabindex="-1" aria-labelledby="modelTitleId" style="display: none;" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">
+                                    Rio Grande do Norte (RN)
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container">
+                                    <p><b>Lei Complementar nº 460, de 29 de dezembro de 2011</b></p>
+                                    <p>Institui o FEC, objetivando fomentar</p>
+                                    <p>                                       <em>a produção artístico-cultural potiguar, mediante o custeio, total ou parcial, de projetos culturais, de iniciativa de pessoas físicas ou jurídicas de direito público ou privado, relacionados com a pesquisa, a edição de obras e a realização de atividades artísticas</em> (RIO GRANDE DO NORTE, 2011).
+                                    </p>
+                                    <p>Proposta pela Prefeitura de Natal, a Lei de Incentivo à Cultura Djalma Maranhão propicia centenas de projetos nos mais diversos segmentos. Produtores, artistas e realizadores podem captar recursos perante a iniciativa privada para a realização das atividades por meio do programa.</p>
+                                    <figure>
+                                        <img src="assets/pg1/nordeste-figura-20.png" class="img-fluid d-block m-auto" alt="">
+                                        <figcaption>Figura 20 – Circuito Gastronômico de Natal<br>
+                                        Fonte: Martins (2017) apud Deguste (2017)</figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="modal-footer justify-content-center">
+                                <button type="button" class="btn-sesc" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="modal-21" tabindex="-1" aria-labelledby="modelTitleId" style="display: none;" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">
+                                    Rio Grande do Sul (RS)
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container">
+                                    <p><b>Lei Estadual nº 13.490, de 21 de julho de 2010</b></p>
+                                    <p>Institui o Sistema Estadual Unificado de Apoio e Fomento às Atividades Culturais do Rio Grande do Sul (Pró-Cultura), garantindo a promoção e a aplicação de recursos financeiros decorrentes de incentivos fiscais para projetos culturais.</p>
+                                    <p>Como exemplo, o projeto Costura Criativa transforma roupas e tecidos descartados em novos produtos, utilizando tecnologia e criatividade.</p>
+                                    <figure>
+                                        <img src="assets/pg1/sul-figura-21.png" class="img-fluid d-block m-auto" alt="">
+                                        <figcaption>Figura 21 – Arte de divulgação do projeto Costura Criativa<br>
+                                        Fonte: Costura Criativa (2022)</figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="modal-footer justify-content-center">
+                                <button type="button" class="btn-sesc" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="modal-22" tabindex="-1" aria-labelledby="modelTitleId" style="display: none;" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">
+                                    Rondônia (RO)
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container">
+                                    <p><b>Lei nº 575, de 6 de julho de 1994</b></p>
+                                    <p><em>Autoriza o Poder Executivo a criar o Programa Estadual de Incentivo à Cultura, institui o Conselho de Desenvolvimento Cultural, e dá outras providências</em> (RONDÔNIA, 1994).</p>
+                                    <p>A feira regional de artesanato em Porto Velho, por exemplo, tem como objetivo selecionar artesãos e trabalhadores manuais, com suas respectivas produções, para ocupação de um espaço coletivo e divulgação e comercialização de produtos artesanais de Rondônia na 1ª Feira Regional de Artesanato de Rondônia.</p>
+                                    <figure>
+                                        <img src="assets/pg1/norte-figura-22.png" class="img-fluid d-block m-auto" alt="">
+                                        <figcaption>Figura 22 – Arte de divulgação da 1ª Feira Virtual do Artesanato de Rondônia<br>
+                                        Fonte: Mimos em Crochê Andréia Garcia (2021)</figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="modal-footer justify-content-center">
+                                <button type="button" class="btn-sesc" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="modal-23" tabindex="-1" aria-labelledby="modelTitleId" style="display: none;" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">
+                                    Roraima (RR)
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container">
+                                    <p><b>Lei nº 1.545, de 9 de novembro de 2021</b></p>
+                                    <p><em>Disciplina a concessão de incentivos fiscais de estímulos à realização de Projetos Culturais no Estado de Roraima</em> (RORAIMA, 2021).</p>
+                                    <p>O projeto Moda ao seu Estilo busca inovar na criação de suas peças por meio de uma moda inclusiva. Essas mudanças permitem a criação de um <em>design</em> diferenciado e, muitas vezes, exclusivo, de acordo com as necessidades de cada indivíduo.</p>
+                                    <figure>
+                                        <img src="assets/pg1/norte-figura-23.png" class="img-fluid d-block m-auto" alt="">
+                                        <figcaption>Figura 23 – Projeto Moda ao seu Estilo<br>
+                                        Fonte: Secretaria Estadual de Cultura de Roraima (2021)</figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="modal-footer justify-content-center">
+                                <button type="button" class="btn-sesc" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="modal-24" tabindex="-1" aria-labelledby="modelTitleId" style="display: none;" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">
+                                    Santa Catarina (SC)
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container">
+                                    <p><b>Lei nº 17.942, de 12 de maio de 2020</b></p>
+                                    <p>Institui o Programa de Incentivo à Cultura (PIC), criado com o objetivo de incentivar empresas a patrocinarem iniciativas culturais mediante renúncia fiscal do ICMS.</p>
+                                    <figure>
+                                        <img src="assets/pg1/sul-figura-24.png" class="img-fluid d-block m-auto" alt="">
+                                        <figcaption>Figura 24 – 1º Floripa is Burning<br>
+                                        Fonte: Yasss (2021)</figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="modal-footer justify-content-center">
+                                <button type="button" class="btn-sesc" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="modal-25" tabindex="-1" aria-labelledby="modelTitleId" style="display: none;" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">
+                                    São Paulo (SP)
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container">
+                                    <p><b>Lei nº 12.268, de 20 de fevereiro de 2006</b></p>
+                                    <p>É a principal lei de incentivo fiscal para a cultura de São Paulo e institui o Programa de Ação Cultural (ProAC). Esse programa tem os seguintes objetivos:</p>
+                                    <p class="cita">
+                                        I - apoiar e patrocinar a renovação, o intercâmbio, a divulgação e a produção artística e cultural no Estado;<br>
+                                        II - preservar e difundir o patrimônio cultural material e imaterial no Estado;<br>
+                                        III - apoiar pesquisas e projetos de formação cultural, bem como a diversidade cultural;<br>
+                                        IV - apoiar e patrocinar a preservação e a expansão dos espaços de circulação da produção cultural. (SÃO PAULO, 2006)
+                                    </p>
+                                    <p>Além disso, há duas formas de fomento:</p>
+                                    <ol>
+                                        <li><b>Fomento direto</b> – Ocorre por meio de editais. A Secretaria de Cultura de São Paulo, nesse caso, publica editais para oferta de recursos a projetos.</li>
+
+                                        <li><b>Fomento indireto</b> – É a forma de fomento mais conhecida. Trata-se da isenção do ICMS, um imposto estadual. O projeto aprovado recebe autorização para captar patrocínio com empresas que terão o desconto no ICMS devido.</li>
+                                    </ol>
+                                    <figure>
+                                        <img src="assets/pg1/sudeste-figura-25.png" class="img-fluid d-block m-auto" alt="">
+                                        <figcaption>Figura 25 – Espetáculo do grupo Cia. de Artes do Baque Bolado<br>
+                                        Fonte: Figueiredo (2021)</figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="modal-footer justify-content-center">
+                                <button type="button" class="btn-sesc" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="modal-26" tabindex="-1" aria-labelledby="modelTitleId" style="display: none;" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">
+                                    Sergipe (SE)
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container">
+                                    <p><b>Lei Municipal nº 1.719, de 18 de julho de 1991</b></p>
+                                    <p>Foi criada para estimular a produção cultural e as artes em geral no município de Aracaju, proporcionando uma maior e melhor produção nas diversas áreas.</p>
+                                    <p>Como exemplo, a Escola de Artes Valdice Teles traz acrobacias, malabarismo, ensaios para espetáculos circenses, em formato de aulas, para interessados em aprender essas artes.</p>
+                                    <figure>
+                                        <img src="assets/pg1/nordeste-figura-26.png" class="img-fluid d-block m-auto" alt="">
+                                        <figcaption>Figura 26 – Arte de divulgação da Oficina de Circo<br>
+                                        Fonte: Prefeitura de Aracaju (c2021)</figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="modal-footer justify-content-center">
+                                <button type="button" class="btn-sesc" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade" id="modal-27" tabindex="-1" aria-labelledby="modelTitleId" style="display: none;" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">
+                                    Tocantins (TO)
+                                </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="container">
+                                    <p><b>Lei nº 2.658, de 6 de dezembro de 2012</b></p>
+                                    <p><em>Altera a Lei nº 1.402, de 30 de setembro de 2003, que institui o Programa de Incentivo à Cultura no Estado do Tocantins</em> (TOCANTIS, 2012), e adota outras providências.</p>
+                                    <figure>
+                                        <img src="assets/pg1/norte-figura-27.png" class="img-fluid d-block m-auto" alt="">
+                                        <figcaption>Figura 27 – Arte de divulgação do I Festival de Cultura Coreana de Palmas<br>
+                                        Fonte: Martins (2022)</figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                            <div class="modal-footer justify-content-center">
+                                <button type="button" class="btn-sesc" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </div>
 
@@ -433,7 +968,7 @@
                         <p>Não será possível, neste módulo, abordar em detalhes cada uma das leis de incentivo existentes no país, então o foco será, como já dito, a Lei Rouanet, que está disponível em todo o Brasil.</p>
                         <p>Você verá a seguir uma série de detalhes importantes que o produtor cultural tem que conhecer no momento de captar recursos e de planejar, elaborar, aprovar e executar um projeto via Lei Rouanet. São diversos regulamentos, o que acaba complicando um pouco o processo. É complicado porque a Lei Rouanet tem muitos instrumentos de acompanhamento e controle para garantir que o dinheiro que o Estado deixa de receber está sendo bem investido em projetos culturais.</p>
                         <p>A expressão “bem investido”, no caso, significa que os recursos vão para projetos que apresentem retornos sociais importantes, que paguem aos profissionais envolvidos valores que não são altos nem baixos demais, que estimulem o desenvolvimento econômico e social nos locais onde são realizados.</p>
-                        <div class="caixa">
+                        <div data-aos="fade-right" class="caixa">
                             <p>Se você ficar com qualquer dúvida relativa ao caminho dos projetos culturais na Lei Rouanet ou se quiser conversar sobre outras leis de incentivo estaduais e municipais, envie uma mensagem no fórum Tira-dúvidas e continue a conversa por lá!</p>
                         </div>
                     </div>
@@ -955,8 +1490,79 @@
                 </div>        
             </div>
 
-            <div class="pagina">
-                <h3>Referências</h3>
+            <div class="pagina pg5">
+                <div class="container">
+                    <h3>Referências</h3>
+                    <p>1º FLORIPA is Burning promove cultura <em>ballroom</em> em Florianópolis. <b>Yasss</b>, 3 nov. 2021. Disponível em: https://yasss.com.br/floripa-is-burning/. Acesso em: 28 set. 2021.</p>
+                    <p>ACRE. <b>Lei nº 2.312, de 25 de outubro de 2010</b>. Institui o Sistema Estadual de Cultura do Acre, cria o Programa Estadual de Fomento e Incentivo à Cultura – PRECULT, cria o Fundo Estadual de Fomento à Cultura – FUNCULTURA, estabelece diretrizes para a Política Estadual de Cultura e dá outras providências. Acre: Assembleia Legislativa, 2010. Disponível em: http://www.al.ac.leg.br/leis/?p=8277. Acesso em: 13 out. 2022.</p>
+                    <p>AGENDA. <b>Escola Pernambucana de Circo</b>, 15 set. 2022. Disponível em: https://www.escolapecirco.org.br/website/category/agenda/. Acesso em: 28 set. 2022.</p>
+                    <p>AMAPÁ. <b>Lei nº 0.777, de 14 de outubro de 2003</b>. Dispõe sobre o incentivo fiscal para a realização de projetos culturais no âmbito do Estado do Amapá e dá outras providências. Amapá: Assembleia Legislativa, 2003. Disponível em: http://www.al.ap.gov.br/ver_texto_consolidado.php?iddocumento=17544. Acesso em: 13 out. 2022.</p>
+                    <p>ASSOCIAÇÃO CULTURAL E DESPORTIVA ACREBRASIL CAPOEIRA. Acre, 22 ago. 2017. Facebook: acrebrasilcapoeira. Disponível em: https://www.facebook.com/acrebrasilcapoeira/photos/pb.100063948339463.-2207520000../1816161298639279/?type=3. Acesso em: 13 out. 2022.</p>
+                    <p>BAHIA. <b>Lei nº 7.015, de 9 de dezembro de 1996</b>. Dispõe sobre a concessão de incentivo fiscal para financiamento de projetos culturais, e dá outras providências. Bahia, 1996. Disponível em: http://www.cultura.ba.gov.br/arquivos/File/Lei7015CriacaoFAZCULTURA.pdf. Acesso em: 13 out. 2022.</p>
+                    BARBAROSSA, Diego. Festival de Cinema Infantil do Ceará acontece no YouTube. Cosmo, 27 dez. 2020. Disponível em: https://cosmonerd.com.br/filmes/noticias/festival-de-cinema-infantil-do-ceara-acontece-no-youtube/. Acesso em: 28 set. 2022.  
+    
+                    <p>BELO HORIZONTE. <b>Lei nº 11.010, de 23 de dezembro de 2016</b>. Dispõe sobre a Política Municipal de Fomento à Cultura e dá outras providências. Belo Horizonte: Câmara Municipal, 2016. Disponível em: https://cmbhsildownload.cmbh.mg.gov.br/silinternet/servico/download/documentoDaNorma?idDocDaNorma=2c907f7658b6b05901593b0eb3d4017f. Acesso em: 22 set. 2022.</p>
+                    <p>BRASIL terá a primeira escola de fotografia para cegos. <b>iPhoto Channel</b>, c2022. Disponível em: https://iphotochannel.com.br/primeira-escola-de-fotografia-para-cegos-do-brasil/. Acesso em: 26 set. 2022.</p>
+                    <p>BRASIL. <b>Instrução Normativa nº 1, de 20 de janeiro de 2022</b>. Regulamenta o Programa de Atendimento Habitacional através do Poder Público (Pró-Moradia). Brasília: Diário Oficial da União, 2022. Disponível em: https://in.gov.br/en/web/dou/-/instrucao-normativa-n-1-de-20-de-janeiro-de-2022-375553700. Acesso em: 13 out. 2022.</p>
+                    <p>BRASIL. <b>Lei nº 8.313, de 23 de dezembro de 1991</b>. Institui o Programa Nacional de Apoio à Cultura (Pronac) e dá outras providências. Brasil: Congresso Nacional, 1991. Disponível em: https://www.planalto.gov.br/ccivil_03/leis/l8313cons.htm. Acesso em: 22 set. 2022.</p>
+    
+                    <p>BRASIL. <b>Lei nº 8.685, de 20 de julho de 1993</b>. Cria mecanismos de fomento à atividade audiovisual e dá outras providências. Brasil: Congresso Nacional, 1993. Disponível em: http://www.planalto.gov.br/ccivil_03/leis/l8685.htm. Acesso em: 22 set. 2022.</p>
+                    <p>BRASIL. <b>Lei nº 14.017, de 29 de junho de 2020</b>. Dispõe sobre ações emergenciais destinadas ao setor cultural a serem adotadas durante o estado de calamidade pública reconhecido pelo Decreto Legislativo nº 6, de 20 de março de 2020. Brasil: Congresso Nacional, 2020. Disponível em: https://www.in.gov.br/en/web/dou/-/lei-n-14.017-de-29-de-junho-de-2020-264166628. Disponível em: 22 set. 2022.</p>
+                    <p>BRASIL. Ministério do Turismo. <b>Instrução Normativa Secult/MTur nº 1, de 4 de fevereiro de 2022</b>. Estabelece procedimentos para apresentação, recebimento, análise, homologação, execução, acompanhamento, prestação de contas e avaliação de resultados de projetos culturais financiados por meio do mecanismo de Incentivo Fiscal do Programa Nacional de Apoio à Cultura (Pronac). Brasília: Diário Oficial da União, 2022. Disponível em: https://www.gov.br/turismo/pt-br/centrais-de-conteudo-/publicacoes/atos-normativos-2/2022/instrucao-normativa-secult-mtur-no-1-de-4-de-fevereiro-de-2022. Acesso em: 13 out. 2022.</p>
+                    <p>BRASIL. Ministério do Turismo. Secretaria Especial da Cultura. <b>Plataforma Salic</b>. Disponível em: http://salic.cultura.gov.br/autenticacao/index/index. Acesso em: 22 set. 2022.</p>
+                    <p>CAVALEIRO, Dominique. Festribal 2022: veja tudo o que você precisa saber para curtir o festival em Juruti. <b>G1</b>, 26 jul. 2022. Disponível em: https://g1.globo.com/pa/santarem-regiao/noticia/2022/07/26/festribal-2022-veja-tudo-o-que-voce-precisa-saber-para-curtir-o-festival-em-juruti.ghtml. Acesso em: 28 set. 2022.</p>
+    
+                    <p>CCBB BRASÍLIA traz o Arraial Coração São João com patrocínio do Banco do Brasil. <b>Tudo Aí Brasília</b>, 27 jul. 2022. Disponível em: https://www.tudoai.bsb.br/2022/07/27/ccbb-brasilia-traz-o-arraial-coracao-sao-joao-com-patrocinio-do-banco-do-brasil/. Acesso em: 26 set. 2022.</p>
+                    <p>CIRCUITO gastronômico de Natal começa nesta quinta-feira (14) na Praça Pedro Velho. <b>Deguste</b>, 14 dez. 2017. Disponível em: https://revistadeguste.com/noticia/circuito-gastronomico-de-natal-comeca-nesta-quinta-feira-14-na-praca-pedro-velho/. Acesso em: 28 set. 2022.</p>
+                    <p>COMPANHIA de dança de rua Amapá B.Boys. <b>Macapá Break</b>, 11 fev. 2015. Disponível em: http://macapabreak.blogspot.com/2015/. Acesso em: 28 set. 2022.</p>
+                    <p>CORRÊA, Bruna. Artistas de Amambai apresentam espetáculo <em>Gritaram-me Bugra</em> no 21º Festival de Bonito. <b>Prefeitura Municipal de Amambai</b>, 25 ago. 2022. Disponível em: https://www.amambai.ms.gov.br/noticias/artistas-de-amambai-apresentam-espetaculo-gritaram-me-bugra-no-21-festival-de-bonito. Acesso em: 26 set. 2022.</p>
+                    <p>COSTURA CRIATIVA. <b>Olá! Iniciamos mais uma jornada rumo à criatividade! [...]</b>. Rio Grande do Sul, 27 de julho de 2022. Facebook: costuracriativasananduva. Disponível em: https://www.facebook.com/costuracriativasananduva/photos/a.109075028557881/109071551891562/. Acesso em: 13 out. 2022.</p>
+    
+                    <p>CURITIBA. <b>Lei Complementar nº 57, de 8 de dezembro de 2005</b>. Cria o Programa de Apoio e Incentivo à Cultura – PAIC, cria o Fundo Municipal de Cultura – FMC, concede incentivo fiscal ao Mecenato Subsidiado, revoga a Lei Complementar nº 15, de 15 de dezembro de 1997, e dá outras providências. Curitiba: Câmara Municipal, 2005. Disponível em: http://www.fundacaoculturaldecuritiba.com.br/pub/file/multimidia/pdf/11-2244-lei_57.pdf. Acesso em: 22 set. 2022.</p>
+                    <p>DIVULGADOS estilistas selecionados para projeto Renda-se 2021. <b>Universidade Federal de Alagoas</b>, 2 set. 2021. Disponível em: https://ufal.br/transparencia/noticias/2021/09/divulgados-estilistas-selecionados-para-projeto-renda-se-2021. Acesso em: 28 set. 2022.</p>
+                    <p><em>E.L.A.</em> <b>MITsp – Mostra Internacional de Teatro de São Paulo</b>, c2020. Disponível em: https://mitsp.org/2022/espetaculo-ela/. Acesso em: 23 set. 2022.</p>
+                    <p>ESPÍRITO SANTO. <b>Lei nº 11.246, de 7 de abril de 2021</b>. Introduz alterações na Lei nº 7.000, de 27 de dezembro de 2001. Espírito Santo, 2021. Disponível em: http://www2.sefaz.es.gov.br/LegislacaoOnline/lpext.dll/infobaselegislacaoonline/leis/2021/lei11.246.htm?fn=document-frame.htm&f=templates&2.0. Acesso em: 13 out. 2022.</p>
+                    <p>FESTIVAL NOITES DO NORTE. <b>No sábado (08/04), às 09h da manhã vai rolar a Mesa Redonda sobre produção cultural só com nomes de peso [...]</b>. [<em>S. I.</em>], 2 abr. 2017. Facebook: festivalnoitesdonorte. Disponível em: https://www.facebook.com/festivalnoitesdonorte/photos/pb.100063446846078.-2207520000../761727067322530/?type=3. Acesso em: 28 set. 2022.</p>
+    
+                    <p>FIGUEIREDO, Patrícia. Artistas aprovados em edital dizem que burocracia do governo de SP barrou financiamento de quase 50 projetos de dança. <b>G1</b>, 27 nov. 2021. Disponível em: https://g1.globo.com/sp/sao-paulo/noticia/2021/11/27/artistas-aprovados-em-edital-dizem-que-burocracia-do-governo-de-sp-barrou-financiamento-de-quase-50-projetos-de-danca.ghtml. Acesso em: 28 set. 2022.</p>
+                    <p>FLOWER POWER BH. <b>O @flowerpowerbh é um festival que nasceu da necessidade de dar voz e visibilidade às mulheres de Belo Horizonte [...]</b>. [<em>S. I.</em>], 30 jul. 2022. Facebook: flowerpowerbh. Disponível em: https://www.facebook.com/102469308377066/photos/pb.100063777145306.-2207520000../478326770791316/?type=3. Acesso em: 28 set. 2022.</p>
+                    <p>FREITAS, Gustavo. IV FLIX de Altamira começa nesta quarta-feira, 15. <b>Confirma Notícia</b>, 15 jun. 2022. Disponível em: https://confirmanoticia.com.br/noticia/15772/iv-flix-de-altamira-comeca-nesta-quarta-feira-15. Acesso em: 28 set. 2022.</p>
+                    <p>FUNCAJU divulga edital de Oficina de Circo na Escola de Artes. <b>Prefeitura de Aracaju</b>, 13 set. 2022. Disponível em: https://www.aracaju.se.gov.br/noticias/97061/funcaju_divulga_edital_de_oficina_de_circo_na_escola_de_artes.html. Acesso em: 13 out. 2022.</p>
+                    <p>HEDLER, Ana Paula. Mostra Painéis Urbanos inicia nesta sexta-feira (27). <b><em>Blog</em> Londrina</b>, 25 maio 2022. Disponível em: https://blog.londrina.pr.gov.br/?p=128799. Acesso em: 26 set. 2022.</p>
+    
+                    <p>JURUTI. <b>Lei Municipal nº 1.122, de 26 de outubro de 2017</b>. Dispõe sobre a criação do Sistema Municipal de Cultura de Juruti, seus princípios, objetivos, estrutura, organização, gestão, inter-relações entre os seus componentes, recursos humanos, financiamento e dá outras providências. Juruti, 2017. Disponível em: https://s3.amazonaws.com/portalleg-producao/pa_pm_juruti/lei-n.-1.1222017-de-26-de-outubro-de-2017.pdf. Acesso em: 13 out. 2022.</p>
+                    <p>LEI nº 1.719, de 18 de julho de 1991. <b>Leis Municipais</b>, 30 set. 2022. Disponível em: https://leismunicipais.com.br/a/se/a/aracaju/lei-ordinaria/1991/171/1719/lei-ordinaria-n-1719-1991-dispoe-sobre-incentivo-fiscal-para-a-realizacao-de-projetos-culturais-no-ambito-do-municipio-de-aracaju. Acesso em: 13 out. 2022.</p>
+                    <p>LEI nº 17.043, de 30 de dezembro de 2011. <b>Legisweb</b>, 30 dez. 2011. Disponível em: https://www.legisweb.com.br/legislacao/?id=144734. Acesso em: 13 out. 2022.</p>
+                    <p>LEI Ordinária nº 2.213, de 4 de abril de 2017. <b>Leis Municipais</b>, 8 abr. 2020. Disponível em: https://leismunicipais.com.br/a/am/m/manaus/lei-ordinaria/2017/221/2213/lei-ordinaria-n-2213-2017-concede-incentivo-fiscal-para-a-realizacao-de-projetos-culturais-no-ambito-do-municipio-de-manaus-e-da-outras-providencias. Acesso em: 13 out. 2022.</p>
+                    <p>MARTIS, Samara. Festival da Cultura Coreana começa nesta sexta-feira, na Capital. <b>Folha Capital</b>, 23 set. 2022. Disponível em: https://folhacapital.com.br/palmas/festival-da-cultura-coreana-comeca-nesta-sexta-feira-na-capital/. Acesso em: 13 out. 2022.</p>
+    
+                    <p>MATO GROSSO DO SUL. <b>Lei nº 5.060, de 20 de setembro de 2017</b>. Institui o Sistema Estadual de Cultura do Estado de Mato Grosso do Sul, estabelece diretrizes para a Política Estadual de Cultura, e dá outras providências. Mato Grosso do Sul, 2017. Disponível em: https://www.fundacaodecultura.ms.gov.br/wp-content/uploads/2022/09/DO9498_21_09_2017-LEI-DO-SISTEMA-ESTADUAL-DE-CULTURA.pdf. Acesso em: 13 out. 2022.</p>
+                    <p>MATO GROSSO. <b>Lei nº 8.257, de 22 de dezembro de 2004</b>. Institui o Fundo Estadual de Fomento à Cultura do Estado de Mato Grosso e dá outras providências. Mato Grosso: Assembleia Legislativa, 2004. Disponível em: https://www.legisweb.com.br/legislacao/?id=132227. Acesso em: 22 set. 2022.</p>
+                    <p>MIMOS EM CROCHÊ ANDRÉIA GARCIA. <b>Mimos em crochê Andréia Garcia está participando da 1° feira virtual de artesanato do Estado de Rondônia</b>. Rondônia, 18 mar. 2021. Facebook: mimosemcrochêandreiagarcia. Disponível em: https://www.facebook.com/mimosemcrocheandreiagarcia/photos/pb.100054288139539.-2207520000../1835693053247654/?type=3. Acesso em: 13 out. 2022.</p>
+                    <p>PARÁ. <b>Decreto nº 847, de 8 de janeiro de 2004</b>. Regulamenta a Lei nº 6.572, de 8 de agosto de 2003, que dispõe sobre a concessão de incentivo fiscal para a realização de projetos culturais no Estado do Pará, e dá outras providências. Pará, 2004. Disponível em: http://www.fcp.pa.gov.br/component/tags/tag/19#:~:text=LEI%20N%C2%B0%209.023%2C%20DE%2017%20DE%20MAR%C3%87O%20DE%202020. Acesso em: 13 out. 2022.</p>
+    
+                    <p>PERNAMBUCO. <b>Lei nº 12.310, de 19 de dezembro de 2002</b>. Consolida e Altera o Sistema de Incentivo à Cultura, e dá outras providências. Pernambuco, 2002. Disponível em: https://www.sefaz.pe.gov.br/Legislacao/Tributaria/Documents/Legislacao/Leis_Tributarias/2002/Lei12310_2002.htm#:~:text=Lei%20n%C2%BA%2012.310%2C%20de%2019%20de%20dezembro%20de%202002&text=Consolida%20e%20Altera%20o%20Sistema,Cultura%2C%20e%20d%C3%A1%20outras%20provid%C3%AAncias. Acesso em: 13 out. 2022.</p>
+                    <p>PROJETO dá visibilidade a moda para pessoas com deficiência. <b>Secult – Secretaria Estadual de Cultura</b>, 15 mar. 2021. Disponível em: https://www.secult.rr.gov.br/index.php/noticias/item/188-lei-aldir-blanc. Acesso em: 13 out. 2022.</p>
+                    <p>PROJETO Tem Criança no Samba reuniu sambadores e sambadeiras mirins, no mercado cultural. <b>Prefeitura de São Francisco do Conde</b>, 31 mar. 2022. Disponível em: http://saofranciscodoconde.ba.gov.br/projeto-tem-crianca-no-samba-reuniu-sambadores-e-sambadeiras-mirins-no-mercado-cultural/. Acesso em 26 set. 2022.</p>
+                    <p>RIO DE JANEIRO (Município). <b>Lei nº 1.940, de 31 de dezembro de 1992, revogada pela Lei nº 5.553, de 14 de janeiro de 2013</b>. Dispõe sobre incentivo fiscal para o apoio à realização de projetos culturais, no âmbito do município. Rio de Janeiro, 1992. Disponível em: http://mail.camara.rj.gov.br/APL/Legislativos/contlei.nsf/7cb7d306c2b748cb0325796000610ad8/bef994fe2e6c6a95032576ac0073359a?OpenDocument. Acesso em: 13 out. 2022.</p>
+                    <p>RIO GRANDE DO NORTE. <b>Lei Complementar nº 460, de 29 de dezembro de 2011</b>. Institui o Fundo Estadual de Cultura (FEC) e dá outras providências. Rio Grande do Norte, 2011. Disponível em: http://www.al.rn.gov.br/storage/legislacao/arq5033818e348d4.pdf. Acesso em: 13 out. 2022.</p>
+    
+                    <p>RIO GRANDE DO SUL. <b>Lei nº 13.490, de 21 de julho de 2010, atualizada até a Lei n.º 15.645, de 31 de maio de 2021</b>. Institui o Sistema Estadual Unificado de Apoio e Fomento às Atividades Culturais – PRÓCULTURA, e dá outras providências. Rio Grande do Sul: Assembleia Legislativa, 2010. Disponível em: http://www.al.rs.gov.br/FileRepository/repLegisComp/Lei%20n%C2%BA%2013.490.pdf. Acesso em: 13 out. 2022.</p>
+                    <p>RONDÔNIA. <b>Lei nº 575, de 6 de julho de 1994</b>. Autoriza o Poder Executivo a criar o Programa Estadual de Incentivo à Cultura, institui o Conselho de Desenvolvimento Cultural, e dá outras providências. Rondônia, 1994. Disponível em: https://view.officeapps.live.com/op/view.aspx?src=http%3A%2F%2Fcotel.casacivil.ro.gov.br%2FCOTEL%2FLivros%2FFiles%2FL575.doc&wdOrigin=BROWSELINK. Acesso em: 13 out. 2022.</p>
+                    <p>RORAIMA. <b>Lei nº 1.545, de 9 de novembro de 2021</b>. Disciplina a concessão de incentivos fiscais de estímulos à realização de Projetos Culturais no Estado de Roraima. Roraima, 2021. Disponível em: https://www.tjrr.jus.br/legislacao/index.php/leis-ordinarias/150-leis-ordinarias-2021/1948-lei-n-1545-de-9-de-novembro-de-2021. Acesso em: 13 out. 2022.</p>
+                    <p>SALIC – Como fazer o cadastro para propostas culturais. <b>MOSTB Editora</b>, 5 out. 2020. Disponível em: https://www.mostb.com/post/salic-como-fazer-o-cadastro-de-para-propostas-culturais. Acesso em: 23 set. 2022.</p>
+    
+                    <p>SANTA CATARINA. <b>Lei nº 17.942, de 12 de maio de 2020</b>. Dispõe sobre a concessão de incentivo fiscal com o objetivo de estimular a realização de Projetos Culturais, instituindo o Programa de Incentivo à Cultura (PIC), no âmbito do Estado de Santa Catarina. Santa Catarina, 2020. Disponível em: https://legislacao.sef.sc.gov.br/html/leis/2020/lei_20_17942.htm. Acesso em: 13 out. 2022.</p>
+                    <p>SÃO PAULO (Estado). <b>Lei nº 12.268, de 20 de fevereiro de 2006, atualizada até a Lei nº 16.381, de 31 de janeiro de 2017</b>. Institui o Programa de Ação Cultural - PAC, e dá providências correlatas. São Paulo: Assembleia Legislativa, 2006. Disponível em: https://www.al.sp.gov.br/repositorio/legislacao/lei/2006/lei-12268-20.02.2006.html#:~:text=Institui%20o%20Programa%20de%20A%C3%A7%C3%A3o%20Cultural%20%2D%20PAC%2C%20e%20d%C3%A1%20provid%C3%AAncias%20correlatas. Acesso em: 13 out. 2022.</p>
+                    <p>SÃO PAULO (Município). <b>Lei nº 15.948, de 26 de dezembro de 2013</b>. Institui o Programa Municipal de Apoio a Projetos Culturais – Pro-Mac, dispõe sobre incentivo fiscal para realização de projetos culturais e dá outras providências. São Paulo: Câmara Municipal, 2013. Disponível em: http://legislacao.prefeitura.sp.gov.br/leis/lei-15948-de-26-de-dezembro-de-2013. Acesso em: 22 set. 2022.</p>
+                    <p>SILVA, Gabriel Nonato de Almeida. Peça <em>Maria Efigênia Vai a Paris</em> será apresentada no CCUFG. <b>Centro Cultural UFG</b>, 2022. Disponível em: https://centrocultural.ufg.br/n/mariaefigeniavaiaparis. Acesso em: 26 set. 2022.</p>
+    
+                    <p>SILVA, Marco. São João 2022 no MA inicia programação oficial amanhã (27), com cortejo no Centro Histórico. <b>Marco Silva Notícias</b>, 26 maio 2022. https://www.blogdomarcosilva.com.br/sao-joao-2022-no-ma-inicia-programacao-oficial-amanha-27-com-cortejo-no-centro-historico/. Acesso em: 29 set. 2022.</p>
+                    <p>SOBRE A LEI de incentivo à cultura. <b>Governo do Maranhão</b>, [20--]. Disponível em: https://cultura.ma.gov.br/programas-ou-campanhas/sobre-a-lei-de-incentivo-a-cultura#:~:text=A%20Lei%20Estadual%20de%20Incentivo,ICMS%20(Imposto%20sobre%20Circula%C3%A7%C3%A3o%20de. Acesso em: 13 out. 2022.</p>
+                    <p>THEODORO, Henrique. <b>Representações sociais dos corpos, fotos e diálogos</b>: pelas lentes, o registro de mulheres juinenses. Mato Grosso: [s. n.], 29 jan. 2022. 1 vídeo (11 min. e 49 s.). Publicado por Henrique Theodoro. Disponível em: https://www.youtube.com/watch?v=3e5AWp-ixSk. Acesso em: 28 set. 2022.</p>
+                    <p>TOCANTIS. <b>Lei nº 2.658, de 6 de dezembro de 2012</b>. Altera a Lei nº 1.402, de 30 de setembro de 2003, que institui o Programa de Incentivo à Cultura no Estado do Tocantins. Tocantins: Diário Oficial, 2012. Disponível em: https://central.to.gov.br/download/5773. Acesso em: 13 out. 2022.</p>
+                    <p><em>WORKSHOP</em> De Passo em Passo – Sambando na Cara da Sociedade com Ewa. <b>YNTB 2021</b>, c2021. Disponível em: https://www.yesnostemosburlesco.com/event-details/workshop-de-passo-em-passo-sambando-na-cara-da-sociedade-com-ewa. Acesso em: 28 set. 2022.</p>
+                </div>
             </div>
            
         </section>
@@ -984,7 +1590,9 @@
     <script src="../assets/js/audio-player.js"></script>
     <script src="../assets/interativos/esquema_bru/esquema-bru.js"></script>
     <script src="../assets/js/geral.js"></script>
-
+    <script src="../assets/js/aos.js"></script>
+    <script>AOS.init()</script>
+    <script src="assets/script.js"></script>
  <!-- Versao atual do handtalk -->
     <script>
         var scriptElem=document.createElement("script");
