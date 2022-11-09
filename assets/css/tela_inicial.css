@@ -4,6 +4,7 @@
     background-image: url('../tela_inicial/bg.png');
     background-size: cover;
     position: relative;
+    overflow: hidden;
 }
 .links {
     background-image: url('../tela_inicial/grafico.png');
