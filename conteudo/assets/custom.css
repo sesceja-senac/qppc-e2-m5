@@ -338,9 +338,9 @@ figcaption {
     position: relative;
 }
 .caixa-atencao-2 {
-    width: 533px;
-    height: 103px;
-    background-image: url('pg2/bloco5-atencao2-bg.png');
+    background-color: white;
+    box-shadow: -6px 6px #ff9700;
+    border-radius: 50px;
     padding: 15px 25px 5px 65px;
     margin: 40px auto;
     position: relative;
@@ -764,5 +764,26 @@ p.cita {
     }
     .obj-mapa {
         display: none;
+    }
+    .titulo-conteudo {
+        top: 80px;
+    }
+    .col-texto {
+        margin-top: 30px;
+    }
+    .bloco-4-2 .caixa-sinopse img {
+        width: 100%;
+    }
+    .bloco-4-2 .texto {
+        padding: 25px;
+    }
+    .caixa-atencao-1, .caixa-atencao-2 {
+        padding-left: unset;
+        padding: 25px;
+        padding-top: 100px;
+    }
+    .caixa-atencao-1::before, .caixa-atencao-2::before {
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
