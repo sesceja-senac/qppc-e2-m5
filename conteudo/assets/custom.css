@@ -453,15 +453,31 @@ img.m-auto {
     border-radius: 20px;
     box-shadow: 3px 3px 6px black;
 }
-.bloco-3-3 .caixa.icone.dica {
+.bloco-3-3 .caixa.icone.dica,
+.bloco-4-3 .caixa.icone.saiba-mais {
     background-color: #00828b;
     color: white;
     border-radius: 100px;
     border: none;
     box-shadow: -6px 6px #ff9700;
 }
+.bloco-4-3 .caixa.icone.saiba-mais::before {
+    background-image: url('pg3/bloco4-saibamais-ico.png');
+    left: -50px;
+    top: -15px;
+    height: 125px;
+    width: 105px;
+    background-color: transparent;
+    background-size: contain;
+}
 .bloco-3-3 .caixa.icone.dica::before {
-
+    background-image: url('pg3/bloco3-dica-ico.png');
+    left: -50px;
+    top: -15px;
+    height: 125px;
+    width: 105px;
+    background-color: transparent;
+    background-size: contain;
 }
 .bloco-4-3 {
     padding-top: 40px;
@@ -649,6 +665,10 @@ p.cita {
     display: none;
 }
 
+.link-xs {
+    display: none;
+}
+
 @media (max-width:1370px){
     .bloco-2-1 .caixa {
         text-align: left;
@@ -717,6 +737,15 @@ p.cita {
 }
 
 @media (max-width:600px){
+    .img-grande {
+        display: none !important;
+    }
+    .link-xs {
+        display: unset;
+    }
+    .link-xs img {
+        margin: 40px auto;
+    }
     .menu {
         display: none;
     }
@@ -785,5 +814,10 @@ p.cita {
     .caixa-atencao-1::before, .caixa-atencao-2::before {
         left: 50%;
         transform: translateX(-50%);
+    }
+    .gif {
+        width: 100%;
+        height: auto;
+        margin: 20px auto;
     }
 }
