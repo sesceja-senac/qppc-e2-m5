@@ -668,6 +668,25 @@ p.cita {
 .link-xs {
     display: none;
 }
+.sesc-audio-player {
+    background-color: transparent;
+    padding-top: 50px;
+}
+.sesc-audio-player .g-0 {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.audio-btns {
+    text-align: center;
+}
+.audio-slider {
+    max-width: 200px;
+}
+.audio-slider input {
+    border-radius: 10px;
+    background-color: transparent;
+}
 
 @media (max-width:1370px){
     .bloco-2-1 .caixa {
@@ -737,6 +756,19 @@ p.cita {
 }
 
 @media (max-width:600px){
+    .podcast-bg {
+        height: 200px;
+        background-position: top;
+        padding-top: 80px;
+    }
+    .podcast-bg .timestamp {
+        color: #333;
+        margin: 10px auto;
+        padding-top: 10px;
+    }
+    .audio-slider {
+        margin-top: 0;
+    }
     .img-grande {
         display: none !important;
     }
